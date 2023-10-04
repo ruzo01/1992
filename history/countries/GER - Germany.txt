@@ -1,4 +1,4 @@
-﻿capital = 64 ##Наша столица
+﻿capital = 96 ##Наша столица
 
 oob = "GER_1936" ##GEG - Тег, заменить
 
@@ -78,5 +78,4 @@ create_country_leader = {
     traits = {
         #
     }
-}
 }
