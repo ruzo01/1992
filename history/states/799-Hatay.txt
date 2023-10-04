@@ -16,7 +16,6 @@ state = {
         
         1938.9.30 = {
             owner = TUR
-            owner = TUR
         }
 
         add_core_of = TUR

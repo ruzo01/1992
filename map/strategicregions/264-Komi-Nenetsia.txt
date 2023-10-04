@@ -18,7 +18,7 @@ strategic_region = {
             arcticWater = 0
             mud = 0.3
             sandstorm = 0
-            minSnowLevel = 0.1
+            minSnowLevel = 0
         }
         period = {
             between = { 0.1 27.1 }
@@ -31,7 +31,7 @@ strategic_region = {
             arcticWater = 0
             mud = 0.3
             sandstorm = 0
-            minSnowLevel = 0.1
+            minSnowLevel = 0
         }
         period = {
             between = { 0.2 30.2 }
@@ -161,7 +161,7 @@ strategic_region = {
             arcticWater = 0
             mud = 0.3
             sandstorm = 0
-            minSnowLevel = 0.1
+            minSnowLevel = 0
         }
     }
 }

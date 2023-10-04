@@ -161,7 +161,7 @@ strategic_region = {
             arcticWater = 0
             mud = 1.6
             sandstorm = 0
-            minSnowLevel = 0.01
+            minSnowLevel = 0
         }
     }
 }

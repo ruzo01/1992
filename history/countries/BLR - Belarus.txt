@@ -1,4 +1,4 @@
-﻿capital = 206 #Minsk
+﻿capital = 243 #Minsk
 
 oob = "BLR_1936"
 
@@ -187,7 +187,7 @@ create_field_marshal = {
     planning_skill = 3
     logistics_skill = 2
 }
-}
+
 
 
 
