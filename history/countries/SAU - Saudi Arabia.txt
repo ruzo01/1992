@@ -58,5 +58,3 @@ add_to_faction = UAE
 add_to_faction = OMA
 add_to_faction = BHR
 add_to_faction = KUW
-
-}

@@ -261,8 +261,8 @@ create_country_leader = {
     expire = "1965.1.1" #Когда умрет
     ideology = liberalism
         #
-    }
 }
+
 
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
