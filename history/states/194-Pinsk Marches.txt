@@ -1,23 +1,23 @@
+state = {
+    id = 194
+    name = "STATE_194"
+    manpower = 934632
 
-state={
-	id=194
-	name="STATE_194" # Mozyr
-	manpower = 934632
-	
-	state_category = rural
+    state_category = rural
 
-	history={
-		owner = BLR
-		buildings = {
-			infrastructure = 2
-			air_base = 3
-		}
-		add_core_of = BLR
-	}
+    history = {
+        owner = BLR
+        
+        buildings = {
+            infrastructure = 2
+            air_base = 3
+        }
+        
+        add_core_of = BLR
+    }
 
-	provinces={
-	331 386 3350 6292 3378 342 9289 6354 11271 6233 9247 289 11230 9396
-	}
+    provinces = {
+        289 331 342 386 3350 3378 6233 6292 6354 9247 9289 9396 11230 11271 
+    }
 
-	local_supplies=0.0 
 }

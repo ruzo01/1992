@@ -1,27 +1,29 @@
+state = {
+    id = 245
+    name = "STATE_245"
+    manpower = 558372
 
-state={
-	id=245
-	name="STATE_245" # Millerovo
-	manpower = 558372
-	
-	state_category = city
+    state_category = city
 
-	history={
-		owner = UKR
-		buildings = {
-			dockyard = 1
-			infrastructure = 3 #was: 5
-		}
-		add_core_of = UKR
-		add_core_of = RUS
-		add_core_of = CRI
-		add_core_of = SEV
-		victory_points = {
-			3686 25
-		}
-	}
-	provinces={
-	3686
-	}
-	local_supplies=8.0 
+    history = {
+        owner = UKR
+        
+        victory_points = { 3686 25 }
+        
+        buildings = {
+            dockyard = 1
+            infrastructure = 3
+        }
+        
+        add_core_of = UKR
+        add_core_of = RUS
+        add_core_of = CRI
+        add_core_of = SEV
+    }
+
+    provinces = {
+        3686 
+    }
+
+    local_supplies = 8
 }

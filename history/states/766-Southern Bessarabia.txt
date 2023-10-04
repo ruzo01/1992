@@ -1,21 +1,22 @@
-state=
-{
-	id=766
-	name="STATE_766"
-	manpower = 156361
-	
-	state_category = rural
-	
-	history= {
-		add_core_of = UKR
-		owner = UKR
-		buildings = {
-			infrastructure = 2
-		}
-	}
-	provinces=
-	{
-     6478 6451 3403 9573 3452 409 434 11409 3468	}
+state = {
+    id = 766
+    name = "STATE_766"
+    manpower = 156361
 
-	local_supplies=0.0 
+    state_category = rural
+
+    history = {
+        owner = UKR
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = UKR
+    }
+
+    provinces = {
+        409 434 3403 3452 3468 6451 6478 9573 11409 
+    }
+
 }

@@ -1,26 +1,25 @@
-
 state = {
-	id = 579
-	name = "STATE_579" # Salekhard
-	manpower = 45484
-	
-	state_category = pastoral
+    id = 579
+    name = "STATE_579"
+    manpower = 45484
 
-	history = {
-		victory_points = {
-			1684 1
-		}
-		owner = RUS
-		buildings = {
-			infrastructure = 1
-		}
-		add_core_of = RUS
-		add_core_of = YAM
-	}
+    state_category = pastoral
 
-	provinces = {
-		1664 1684 3169 4669 7689 7738 8461 9142 13076
-	}
+    history = {
+        owner = RUS
+        
+        victory_points = { 1684 1 }
+        
+        buildings = {
+            infrastructure = 1
+        }
+        
+        add_core_of = RUS
+        add_core_of = YAM
+    }
 
-	local_supplies = 0.0 
+    provinces = {
+        1664 1684 3169 4669 7689 7738 8461 9142 13076 
+    }
+
 }

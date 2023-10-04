@@ -1,29 +1,26 @@
-state={
-	id=727
-	name="STATE_727"
-	manpower=5367
-	state_category = small_island
+state = {
+    id = 727
+    name = "STATE_727"
+    manpower = 5367
 
-	history={
-		owner = USA
-		add_core_of = HAW
-		buildings = {
-			infrastructure = 1
-			13048 = {
-				naval_base = 1
-			}
-			13049 = {
-				naval_base = 1
-			}
-			13053 = {
-				naval_base = 1
-			}
-		}
-	}
-	
-	provinces={
-		13048 13049 13053 
-	}
+    state_category = small_island
 
-	local_supplies=0.0 
+    history = {
+        owner = USA
+        
+        buildings = {
+            infrastructure = 1
+
+            13048 = { naval_base = 1 }
+            13049 = { naval_base = 1 }
+            13053 = { naval_base = 1 }
+        }
+        
+        add_core_of = HAW
+    }
+
+    provinces = {
+        13048 13049 13053 
+    }
+
 }

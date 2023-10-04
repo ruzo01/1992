@@ -1,25 +1,28 @@
-state={
-	id=859
-	name="STATE_859"
-	provinces={
-		1955 10791 10850 12702 
-	}
-	resources={
-		oil=3.000
-	}
-	history = {
-		owner = SAU
-		add_core_of = SAU
-		buildings = {
-			infrastructure = 1
-			12702 = {
-				naval_base = 6
+state = {
+    id = 859
+    name = "STATE_859"
+    manpower = 440000
 
-			}
-		}
-	}
-	manpower=440000
-	state_category = rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+    state_category = rural
+
+    resources = {
+        oil = 3
+    }
+
+    history = {
+        owner = SAU
+        
+        buildings = {
+            infrastructure = 1
+
+            12702 = { naval_base = 6 }
+        }
+        
+        add_core_of = SAU
+    }
+
+    provinces = {
+        1955 10791 10850 12702 
+    }
+
 }

@@ -1,29 +1,29 @@
 state = {
-	id = 827
-	name = "STATE_827"
-	resources = {
-		chromium = 17 # was: 35 in the caucasus, but was split
-	}
+    id = 827
+    name = "STATE_827"
+    manpower = 387990
 
-	history = {
-		owner = RUS
-		buildings = {
-			infrastructure = 2
+    state_category = pastoral
 
-		}
-		add_core_of = RUS
-		add_core_of = KBK
-		victory_points = {
-			685 1
-		}
-	}
+    resources = {
+        chromium = 17
+    }
 
-	provinces = {
-		685 6674
-	}
-	manpower = 387990
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
+    history = {
+        owner = RUS
+        
+        victory_points = { 685 1 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = RUS
+        add_core_of = KBK
+    }
 
-	local_supplies = 0.0 
+    provinces = {
+        685 6674 
+    }
+
 }

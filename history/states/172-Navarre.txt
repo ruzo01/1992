@@ -1,26 +1,26 @@
-state={
-	id=172
-	name="STATE_172"
+state = {
+    id = 172
+    name = "STATE_172"
+    manpower = 359880
 
-	history={
-		owner = SPR
-		add_core_of = NAV
-		victory_points = {
-			3933 1
-		}
-		buildings = {
-			infrastructure = 3 #was: 6
-		}
-		add_core_of = SPR
+    state_category = pastoral
 
-	}
+    history = {
+        owner = SPR
+        
+        victory_points = { 3933 1 }
+        
+        buildings = {
+            infrastructure = 3
+        }
+        
+        add_core_of = NAV
+        add_core_of = SPR
+    }
 
-	provinces={
-		932 3737 3931 3933 9857 
-	}
-	manpower=359880
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+    provinces = {
+        932 3737 3931 3933 9857 
+    }
 
-	local_supplies=4.0 
+    local_supplies = 4
 }

@@ -1,38 +1,36 @@
+state = {
+    id = 206
+    name = "STATE_206"
+    manpower = 1163163
 
-state={
-	id=206
-	name="STATE_206"
-	manpower =  1163163
-	
-	state_category = city
+    state_category = city
 
-	history={
-		owner = BLR
-		victory_points = {
-			9289 5
-		}
-		victory_points = {
-			3350 3
-		}
-		victory_points = {
-			11313 1
-		}
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
-			air_base = 8
-		}
-		add_core_of = BLR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
-	}
+    history = {
+        owner = BLR
+        
+        victory_points = { 9289 5 }
+        victory_points = { 3350 3 }
+        victory_points = { 11313 1 }
+        
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+            air_base = 8
+        }
+        
+        1939.1.1 = {
+            
+            buildings = {
+                industrial_complex = 3
+            }
+        }
 
-	provinces={
-		216 294 11285 11341 9236 406 277 3267 11216 11322 360 3759 11313 
-	}
+        add_core_of = BLR
+    }
 
-	local_supplies=5.0 
+    provinces = {
+        216 277 294 360 406 3267 3759 9236 11216 11285 11313 11322 11341 
+    }
+
+    local_supplies = 5
 }

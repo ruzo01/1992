@@ -1,29 +1,26 @@
 state = {
-	id = 911
-	name = "STATE_911"
-	resources = {
-	}
+    id = 911
+    name = "STATE_911"
+    manpower = 73286
 
-	history = {
-		owner = NKR
-		buildings = {
-			infrastructure = 2
+    state_category = rural
 
-		}
-		add_core_of = AZR
-		add_core_of = NKR
-		add_core_of = ARM
-		victory_points = {
-			1467 1
-		}
-	}
+    history = {
+        owner = NKR
+        
+        victory_points = { 1467 1 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = AZR
+        add_core_of = NKR
+        add_core_of = ARM
+    }
 
-	provinces = {
-	  1467
-	}
-	manpower = 73286
-	buildings_max_level_factor = 1.000
-	state_category = rural
+    provinces = {
+        1467 
+    }
 
-	local_supplies = 0.0 
 }

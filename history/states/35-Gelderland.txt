@@ -1,33 +1,27 @@
-state={
-	id=35
-	name="STATE_35"
+state = {
+    id = 35
+    name = "STATE_35"
+    manpower = 1449000
 
-	history={
-		owner = HOL
-		add_core_of = HOL
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
+    state_category = city
 
-		}
-		victory_points = {
-			3262 5 
-		}
-		victory_points = {
-			6496 3 
-		}
-		victory_points = {
-			11562 1 
-		}
+    history = {
+        owner = HOL
+        
+        victory_points = { 3262 5 }
+        victory_points = { 6496 3 }
+        victory_points = { 11562 1 }
+        
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 5
+        }
+        
+        add_core_of = HOL
+    }
 
-	}
+    provinces = {
+        480 3262 6496 6500 9431 11456 11562 
+    }
 
-	provinces={
-		480 3262 6496 6500 9431 11456 11562 
-	}
-	manpower=1449000
-	buildings_max_level_factor=1.000
-	state_category=city
-
-	local_supplies=0.0 
 }

@@ -1,23 +1,23 @@
-
 state = {
-	id = 878
-	name = "STATE_878" # Khatangsky
-	manpower = 15974
-	
-	state_category = pastoral
+    id = 878
+    name = "STATE_878"
+    manpower = 15974
 
-	history = {
-		owner = RUS
-		buildings = {
-			infrastructure = 1
-		}
-		add_core_of = RUS
-		add_core_of = TAY
-	}
+    state_category = pastoral
 
-	provinces = {
-		2900 4812 9224 11122 12687 13065
-	}
+    history = {
+        owner = RUS
+        
+        buildings = {
+            infrastructure = 1
+        }
+        
+        add_core_of = RUS
+        add_core_of = TAY
+    }
 
-	local_supplies = 0.0 
+    provinces = {
+        2900 4812 9224 11122 12687 13065 
+    }
+
 }

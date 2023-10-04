@@ -1,29 +1,26 @@
-state={
-	id=700
-	name="STATE_700"
-	manpower = 1768500
-	
-	state_category = pastoral
-	
-	history=
-	{
-		owner = SIE
-		add_core_of = SIE
-		victory_points = {
-			2038 1 
-		}
-		buildings = {
-			infrastructure = 2
-			2038 = {
-				naval_base = 3
-			}
-		}
+state = {
+    id = 700
+    name = "STATE_700"
+    manpower = 1768500
 
-	}
-	
-	provinces={
-		2038 2094 
-	}
+    state_category = pastoral
 
-	local_supplies=0.0 
+    history = {
+        owner = SIE
+        
+        victory_points = { 2038 1 }
+        
+        buildings = {
+            infrastructure = 2
+
+            2038 = { naval_base = 3 }
+        }
+        
+        add_core_of = SIE
+    }
+
+    provinces = {
+        2038 2094 
+    }
+
 }

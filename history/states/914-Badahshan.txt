@@ -1,28 +1,25 @@
 state = {
-	id = 914
-	name = "STATE_914"
-	resources = {
-	}
+    id = 914
+    name = "STATE_914"
+    manpower = 135043
 
-	history = {
-		owner = TAJ
-		buildings = {
-			infrastructure = 2
+    state_category = rural
 
-		}
-		add_core_of = TAJ
-		add_core_of = BDS
-		victory_points = {
-		10417 1
-		}
-	}
+    history = {
+        owner = TAJ
+        
+        victory_points = { 10417 1 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = TAJ
+        add_core_of = BDS
+    }
 
-	provinces = {
-	  8027 10417 12805
-	}
-	manpower = 135043
-	buildings_max_level_factor = 1.000
-	state_category = rural
+    provinces = {
+        8027 10417 12805 
+    }
 
-	local_supplies = 0.0 
 }

@@ -1,25 +1,26 @@
-state=
-{
-	id=78
-	name="STATE_78"
-	manpower = 2296800
-	
-	state_category = town
-	
-	history= {
-		add_core_of = MOL
-		owner = MOL
-		victory_points = {
-			3707 1
-		}
-		buildings = {
-			infrastructure = 2
-			air_base = 2
-		}
-	}
-	provinces=
-	{
-414 565 3407 3577 3707 6600 9683 11686 11705 	}
+state = {
+    id = 78
+    name = "STATE_78"
+    manpower = 2296800
 
-	local_supplies=4.0 
+    state_category = town
+
+    history = {
+        owner = MOL
+        
+        victory_points = { 3707 1 }
+        
+        buildings = {
+            infrastructure = 2
+            air_base = 2
+        }
+        
+        add_core_of = MOL
+    }
+
+    provinces = {
+        414 565 3407 3577 3707 6600 9683 11686 11705 
+    }
+
+    local_supplies = 4
 }

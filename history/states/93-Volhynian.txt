@@ -1,29 +1,25 @@
-state={
-	id=93
-	name="STATE_93"
+state = {
+    id = 93
+    name = "STATE_93"
+    manpower = 1985600
 
-	history={
-		victory_points = {
-			6557 1
-		}
-		victory_points = {
-			422 3
-		}
-		owner = UKR
-		buildings = {
-			infrastructure = 3
+    state_category = town
 
-		}
-		add_core_of = UKR
+    history = {
+        owner = UKR
+        
+        victory_points = { 6557 1 }
+        victory_points = { 422 3 }
+        
+        buildings = {
+            infrastructure = 3
+        }
+        
+        add_core_of = UKR
+    }
 
-	}
+    provinces = {
+        422 474 513 3412 3496 9520 11441 
+    }
 
-	provinces={
-		422 474 513 3412 11441 9520 3496
-	}
-	manpower=1985600
-	buildings_max_level_factor=1.000
-	state_category=town
-
-	local_supplies=0.0 
 }

@@ -1,25 +1,24 @@
+state = {
+    id = 238
+    name = "STATE_238"
+    manpower = 2651300
 
-state={
-	id=238
-	name="STATE_238"
-	manpower = 2651300
-	
-	state_category = metropolis
+    state_category = metropolis
 
-	history={
-		owner = UKR
-		buildings = {
-			infrastructure = 2
-		}
-		add_core_of = UKR
-		victory_points = {
-			525 50 # City of Volgodonsk only founded in 1950 to service the new reservoir
-		}
-	}
+    history = {
+        owner = UKR
+        
+        victory_points = { 525 50 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = UKR
+    }
 
-	provinces={
-		525
-	}
+    provinces = {
+        525 
+    }
 
-	local_supplies=0.0 
 }

@@ -1,29 +1,26 @@
 state = {
-	id = 915
-	name = "STATE_915"
-	resources = {
-	}
+    id = 915
+    name = "STATE_915"
+    manpower = 154420
 
-	history = {
-		owner = RUS
-		buildings = {
-			infrastructure = 2
+    state_category = rural
 
-		}
-		add_core_of = RUS
-		add_core_of = ADG
-		add_core_of = KUB
-		victory_points = {
-		3720 1
-		}
-	}
+    history = {
+        owner = RUS
+        
+        victory_points = { 3720 1 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = RUS
+        add_core_of = ADG
+        add_core_of = KUB
+    }
 
-	provinces = {
-	  3720 3717 6721 6738
-	}
-	manpower = 154420
-	buildings_max_level_factor = 1.000
-	state_category = rural
+    provinces = {
+        3717 3720 6721 6738 
+    }
 
-	local_supplies = 0.0 
 }

@@ -1,36 +1,36 @@
+state = {
+    id = 217
+    name = "STATE_217"
+    manpower = 1135070
 
-state={
-	id=217
-	name="STATE_217"
-	manpower = 1135070
-	
-	state_category = city
+    state_category = city
 
-	history={
-		owner = RUS
-		victory_points = {
-			3529 30.0
-		}
-		victory_points = {
-			487 1
-		}
-		buildings = {
-			infrastructure = 4 #was: 7
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 1
-		}
-		add_core_of = RUS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
-	}
+    history = {
+        owner = RUS
+        
+        victory_points = { 3529 300 }
+        victory_points = { 487 1 }
+        
+        buildings = {
+            infrastructure = 4
+            arms_factory = 1
+            industrial_complex = 1
+            air_base = 1
+        }
+        
+        1939.1.1 = {
+            
+            buildings = {
+                arms_factory = 2
+            }
+        }
 
-	provinces={
-		3518 6506 9475 11395 6575 3517 6479 498 520 533 3489 3503 3505 3529 3555 6503 6527 6541 9459 9474 9504 9516 9530 9540 11447 11474 11484 11501 487 518 544 579 3431 3539 3582 6454 6528 6563 6602 9436 9464 9502 11423 11451 11485 11512 11527 11555  
-	}
+        add_core_of = RUS
+    }
 
-	local_supplies=7.0 
+    provinces = {
+        487 498 518 520 533 544 579 3431 3489 3503 3505 3517 3518 3529 3539 3555 3582 6454 6479 6503 6506 6527 6528 6541 6563 6575 6602 9436 9459 9464 9474 9475 9502 9504 9516 9530 9540 11395 11423 11447 11451 11474 11484 11485 11501 11512 11527 11555 
+    }
+
+    local_supplies = 7
 }

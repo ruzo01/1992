@@ -1,33 +1,31 @@
+state = {
+    id = 658
+    name = "STATE_658"
+    manpower = 170200
 
-state={
-	id=658
-	name="STATE_658"
-	manpower = 170200
-	resources={
-		oil=5 # was: 6
-	}
-	
-	state_category = pastoral
+    state_category = pastoral
 
+    resources = {
+        oil = 5
+    }
 
-	history={
-		add_core_of = UAE
-		owner = UAE
-		victory_points = {
-			7960 1 
-		}
-		buildings = {
-			infrastructure = 1
-			7960 = {
-				naval_base = 3
-			}
-		}
+    history = {
+        owner = UAE
+        
+        victory_points = { 7960 1 }
+        
+        buildings = {
+            infrastructure = 1
 
-	}
+            7960 = { naval_base = 3 }
+        }
+        
+        add_core_of = UAE
+    }
 
-	provinces={
-		2048 7960 8108 10904 
-	}
+    provinces = {
+        2048 7960 8108 10904 
+    }
 
-	local_supplies=4.0 
+    local_supplies = 4
 }

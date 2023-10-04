@@ -1,29 +1,29 @@
-
 state = {
-	id = 821
-	name = "STATE_821"
-	manpower = 731985
-	
-	state_category = rural
-	
-	resources={
-		oil = 9 # was split from Dagestan which had 19 oil, and retained 10
-	}
+    id = 821
+    name = "STATE_821"
+    manpower = 731985
 
-	history = {
-		owner = CIN
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			666 1
-		}
-		add_core_of = RUS
-		add_core_of = CIN
-	}
+    state_category = rural
 
-	provinces = {
-		666 13265 13267 13262 13263
-	}
-	local_supplies=0.0 
+    resources = {
+        oil = 9
+    }
+
+    history = {
+        owner = CIN
+        
+        victory_points = { 666 1 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = RUS
+        add_core_of = CIN
+    }
+
+    provinces = {
+        666 13262 13263 13265 13267 
+    }
+
 }

@@ -1,29 +1,29 @@
-state={
-	id=768
-	name="STATE_768" # Rwanda
-	
-	state_category = pastoral
-	resources = {
-		tungsten = 3
-	}
+state = {
+    id = 768
+    name = "STATE_768"
+    manpower = 1716564
 
-	history={
-		owner = RWA
-		add_core_of = RWA
-		victory_points = {
-			9962 1
-		}
-		buildings = {
-			infrastructure = 1
+    state_category = pastoral
 
-		}
-	}
+    resources = {
+        tungsten = 3
+    }
 
-	provinces={
-		9962
-	}
-	manpower=1716564
-	buildings_max_level_factor=1.000
+    history = {
+        owner = RWA
+        
+        victory_points = { 9962 1 }
+        
+        buildings = {
+            infrastructure = 1
+        }
+        
+        add_core_of = RWA
+    }
 
-	local_supplies=1.0 
+    provinces = {
+        9962 
+    }
+
+    local_supplies = 1
 }

@@ -1,26 +1,25 @@
-
 state = {
-	id = 874
-	name = "STATE_874" # Magadan
-	manpower = 63481
-	state_category = pastoral
-	
-	history = {
-		victory_points = { 
-			12683 1 
-		}
+    id = 874
+    name = "STATE_874"
+    manpower = 63481
 
-		owner = RUS
-		buildings = {
-			infrastructure = 1
-		}
-		add_core_of = RUS
-		add_core_of = FER
-	}
+    state_category = pastoral
 
-	provinces = {
-		1865 10540 12683
-	}
+    history = {
+        owner = RUS
+        
+        victory_points = { 12683 1 }
+        
+        buildings = {
+            infrastructure = 1
+        }
+        
+        add_core_of = RUS
+        add_core_of = FER
+    }
 
-	local_supplies = 0.0 
+    provinces = {
+        1865 10540 12683 
+    }
+
 }

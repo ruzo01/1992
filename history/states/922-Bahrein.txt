@@ -1,24 +1,24 @@
-state=
-{
-	id=922
-	name="STATE_922"
-	manpower =  488000
-	
-	state_category = rural
-	
-	history= {
-		victory_points = {
-			13281 20
-		}
-		add_core_of = BHR
-		owner = BHR
-		buildings = {
-			infrastructure = 2
-		}
-	}
-	provinces=
-	{
-     13280 13281	}
+state = {
+    id = 922
+    name = "STATE_922"
+    manpower = 488000
 
-	local_supplies=0.0 
+    state_category = rural
+
+    history = {
+        owner = BHR
+        
+        victory_points = { 13281 20 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = BHR
+    }
+
+    provinces = {
+        13280 13281 
+    }
+
 }

@@ -1,28 +1,25 @@
 state = {
-	id = 913
-	name = "STATE_913"
-	resources = {
-	}
+    id = 913
+    name = "STATE_913"
+    manpower = 135043
 
-	history = {
-		owner = GAG
-		buildings = {
-			infrastructure = 2
+    state_category = rural
 
-		}
-		add_core_of = MOL
-		add_core_of = GAG
-		victory_points = {
-		3724 1
-		}
-	}
+    history = {
+        owner = GAG
+        
+        victory_points = { 3724 1 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = MOL
+        add_core_of = GAG
+    }
 
-	provinces = {
-	  3724
-	}
-	manpower = 135043
-	buildings_max_level_factor = 1.000
-	state_category = rural
+    provinces = {
+        3724 
+    }
 
-	local_supplies = 0.0 
 }

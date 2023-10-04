@@ -1,34 +1,32 @@
-
 state = {
-	id = 829
-	name = "STATE_829" #Volga Germany
-	manpower = 618530
-	
-	state_category = rural
-	
-	resources = {
-		steel = 14 # was: 40
-		tungsten = 6 # was: 34
-	}
+    id = 829
+    name = "STATE_829"
+    manpower = 618530
 
-	history = {
-		owner = RUS
-		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = RUS
-		add_core_of = VGE
-		victory_points = {
-			11523 2
-		}
-		victory_points = {
-			9432 1
-		}
-	}
+    state_category = rural
 
-	provinces = {
-		6601 9432 11460 11523 6539
-	}
+    resources = {
+        steel = 14
+        tungsten = 6
+    }
 
-	local_supplies = 9.0 
+    history = {
+        owner = RUS
+        
+        victory_points = { 11523 2 }
+        victory_points = { 9432 1 }
+        
+        buildings = {
+            infrastructure = 3
+        }
+        
+        add_core_of = RUS
+        add_core_of = VGE
+    }
+
+    provinces = {
+        6539 6601 9432 11460 11523 
+    }
+
+    local_supplies = 9
 }

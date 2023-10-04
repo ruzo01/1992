@@ -1,31 +1,26 @@
 state = {
-	id = 917
-	name = "STATE_917"
-	resources = {
-	}
+    id = 917
+    name = "STATE_917"
+    manpower = 454420
 
-	history = {
-		owner = CIN
-		buildings = {
-			infrastructure = 2
+    state_category = rural
 
-		}
-		add_core_of = RUS
-		add_core_of = CIN
-		victory_points = {
-		13264 1
-		}
-	    victory_points = {
-		13266 5
-		}
-	}
+    history = {
+        owner = CIN
+        
+        victory_points = { 13264 1 }
+        victory_points = { 13266 5 }
+        
+        buildings = {
+            infrastructure = 2
+        }
+        
+        add_core_of = RUS
+        add_core_of = CIN
+    }
 
-	provinces = {
-	  13264 13260 13266 13261 
-	}
-	manpower = 454420
-	buildings_max_level_factor = 1.000
-	state_category = rural
+    provinces = {
+        13260 13261 13264 13266 
+    }
 
-	local_supplies = 0.0 
 }

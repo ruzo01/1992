@@ -1,31 +1,26 @@
+state = {
+    id = 843
+    name = "STATE_843"
+    manpower = 650000
 
-state={
-	id=843
-	name="STATE_843"
+    state_category = pastoral
 
-	history={
-		buildings = {
+    history = {
+        owner = ETH
+        
+        victory_points = { 5097 1 }
+        
+        1936.6.1 = {
+            owner = ETH
+            owner = ETH
+        }
 
-		}
-		victory_points = {
-			5097 1 
-		}
-		owner = ETH
-		add_core_of = ETH
-		add_core_of = AFA
-		1936.6.1 = {
-			owner = ETH
-			controller = ETH
+        add_core_of = ETH
+        add_core_of = AFA
+    }
 
-		}
+    provinces = {
+        5097 7944 
+    }
 
-	}
-
-	provinces={
-		5097 7944 
-	}
-	manpower=650000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
 }

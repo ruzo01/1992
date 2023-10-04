@@ -1,29 +1,28 @@
-state={
-	id=617
-	name="STATE_617"
+state = {
+    id = 617
+    name = "STATE_617"
+    manpower = 1080500
 
-	history={
-		owner = PRC
-		add_core_of = SIK
-		add_core_of = CHI
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
+    state_category = rural
 
-		}
-		victory_points = {
-			4709 5
-		}
+    history = {
+        owner = PRC
+        
+        victory_points = { 4709 5 }
+        
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 2
+        }
+        
+        add_core_of = SIK
+        add_core_of = CHI
+        add_core_of = PRC
+    }
 
-	}
+    provinces = {
+        1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656 
+    }
 
-	provinces={
-		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656 
-	}
-	manpower=1080500
-	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=6.0 
+    local_supplies = 6
 }

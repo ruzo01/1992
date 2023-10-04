@@ -1,27 +1,26 @@
+state = {
+    id = 765
+    name = "STATE_765"
+    manpower = 488000
 
-state={
-	id=765
-	name="STATE_765"
-	manpower = 488000
-	state_category = pastoral
+    state_category = pastoral
 
-	history={
-		add_core_of = QAT
-		owner = QAT
-		victory_points = {
-			8051 25
-		}
-		buildings = {
-			infrastructure = 1
-			8051 = {
-				naval_base = 2
-			}
-		}
-	}
+    history = {
+        owner = QAT
+        
+        victory_points = { 8051 25 }
+        
+        buildings = {
+            infrastructure = 1
 
-	provinces={
-		8051 13282 13283 13285
-	}
+            8051 = { naval_base = 2 }
+        }
+        
+        add_core_of = QAT
+    }
 
-	local_supplies=0.0 
+    provinces = {
+        8051 13282 13283 
+    }
+
 }
