@@ -1,0 +1,376 @@
+focus_tree = {
+	id = BLR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BLR
+		}
+	}
+	default = no
+	focus = {
+		id = BLR_belarus
+		icon = GFX_goal_unknown
+		cost = 1,00
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = BLR_belarus
+		icon = GFX_goal_unknown
+		cost = 1,00
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = BLR_mid
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = BLR_belarus
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = BLR_zapad
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_mid
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = BLR_asia
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_zapad
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = BLR_europe
+		icon = GFX_goal_unknown
+		cost = 4,00
+		prerequisite = {
+			focus = BLR_zapad
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = BLR_america
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_europe
+			focus = BLR_asia
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = BLR_sng
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_mid
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = BLR_ukr
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_sng
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = BLR_russia
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_ukr
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = BLR_gaz
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_russia
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = BLR_nuke
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_russia
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = BLR_give_rus
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = BLR_nuke
+		}
+		mutually_exclusive = {
+			focus = BLR_nuke_blr
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = BLR_nuke_blr
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = BLR_nuke
+		}
+		mutually_exclusive = {
+			focus = BLR_give_rus
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = BLR_sasia
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_sng
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = BLR_kaukaz
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_ukr
+			focus = BLR_sasia
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = BLR_pribaltica
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_sng
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = BLR_economic
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_belarus
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = BLR_valuta
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_economic
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = BLR_dolg
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_america
+			focus = BLR_russia
+		}
+		prerequisite = {
+			focus = BLR_america
+		}
+		prerequisite = {
+			focus = BLR_russia
+		}
+		prerequisite = {
+			focus = BLR_valuta
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = BLR_privatizacia
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_economic
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = BLR_army
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_belarus
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = BLR_milicia
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_army
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = BLR_banditizm
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_milicia
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = BLR_KGB
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_army
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = BLR_KGB1
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_KGB
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = BLR_KGB2
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_KGB
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = BLR_africa
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = BLR_asia
+			focus = BLR_europe
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = BLR_nuke1
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = BLR_nuke_blr
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = BLR_post_sov
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = BLR_belarus
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = BLR_mova
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = BLR_post_sov
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = BLR_pasport
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = BLR_mova
+		}
+		x = 24
+		y = 4
+
+	}
+}

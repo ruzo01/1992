@@ -1,0 +1,26 @@
+state = {
+	id = 912
+	name = "STATE_912"
+	resources = {
+	}
+
+	history = {
+		owner = NKR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = AZR
+		add_core_of = NKR
+		add_core_of = ARM
+	}
+
+	provinces = {
+	  9715
+	}
+	manpower = 73286
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

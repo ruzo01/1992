@@ -1,0 +1,52 @@
+focus_tree = {
+	id = TAT
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TAT
+		}
+	}
+	default = no
+	focus = {
+		id = TAT_shaimiev
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 10
+		y = 0
+
+	}
+	focus = {
+		id = TAT_svoboda
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = TAT_flag
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = TAT_referendum
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = TAT_svoboda
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = TAT_flag
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = TAT_shaimiev
+		}
+		x = 10
+		y = 1
+
+	}
+}

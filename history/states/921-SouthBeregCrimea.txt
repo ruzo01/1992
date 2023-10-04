@@ -1,0 +1,35 @@
+state=
+{
+	id=921
+	name="STATE_921"
+	manpower = 156361
+	
+	state_category = rural
+	
+	history= {
+		victory_points = {
+			6704 3
+		}
+		victory_points = {
+			13269 5
+		}
+		victory_points = {
+			13270 3
+		}
+		victory_points = {
+			13271 1
+		}
+		add_core_of = UKR
+		add_core_of = RUS
+		add_core_of = CRI
+		owner = UKR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces=
+	{
+     6704 13269 13270 13271	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 913
+	name = "STATE_913"
+	resources = {
+	}
+
+	history = {
+		owner = GAG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MOL
+		add_core_of = GAG
+		victory_points = {
+		3724 1
+		}
+	}
+
+	provinces = {
+	  3724
+	}
+	manpower = 135043
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

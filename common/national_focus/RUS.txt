@@ -1,0 +1,877 @@
+focus_tree = {
+	id = RUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	focus = {
+		id = RUS_eltsin
+		icon = GFX_Boris
+		cost = 1,00
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = RUS_region
+		icon = GFX_goal_unknown
+		cost = 1,00
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = RUS_milicia2
+		icon = GFX_goal_unknown
+		cost = 2,00
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = RUS_liberal_reform
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = RUS_GAZ
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_liberal_reform
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = RUS_vaz
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_GAZ
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = RUS_kamaz
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_vaz
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = RUS_make_roskosmos
+		icon = GFX_roscosmos
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_liberal_reform
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = RUS_gazprom
+		icon = GFX_RUS_gazprom
+		cost = 3,00
+		prerequisite = {
+			focus = RUS_make_roskosmos
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = RUS_lukoil
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_gazprom
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = RUS_NTV
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_lukoil
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = RUS_liberal_price
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_liberal_reform
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = RUS_free_trade
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_liberal_price
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = RUS_luzkov
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_free_trade
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = RUS_bandit_moscow
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_luzkov
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = RUS_open_granica
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_free_trade
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = RUS_money_reform
+		icon = GFX_goal_unknown
+		cost = 4,00
+		prerequisite = {
+			focus = RUS_open_granica
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = RUS_reform_auto_nomer
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_money_reform
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = RUS_shok_terapy
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_liberal_reform
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = RUS_gaidar
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_shok_terapy
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = RUS_pensioner
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_open_granica
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = RUS_MMM
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_money_reform
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = RUS_mid
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = RUS_zapad
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_mid
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = RUS_join_MVF
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_zapad
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = RUS_SNV1
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_join_MVF
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = RUS_SNV2
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_SNV1
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = RUS_BSEC
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_zapad
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = RUS_join_soviet_europe
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_BSEC
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = RUS_vostok
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_mid
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = RUS_sng
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = RUS_SNG_ustav
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_sng
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = RUS_SNG_prestupnost
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = RUS_SNG_ustav
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = RUS_sng_AZR
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_SNG_ustav
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = RUS_sng_GEO
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_sng_AZR
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = RUS_mirotvor
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_mid
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = RUS_PMR
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_mirotvor
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = RUS_ABK
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_PMR
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = RUS_ODKB
+		icon = GFX_focus_csto
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_sng
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = RUS_GEO_join
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_ODKB
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = RUS_AZR_join
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_GEO_join
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = RUS_BLR_join
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_AZR_join
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = RUS_souznoe_gos
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_BLR_join
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = RUS_MO
+		icon = GFX_russian_armed_forces
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = RUS_dogovor_UKR
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_MO
+		}
+		prerequisite = {
+			focus = RUS_sng
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = RUS_chernomorckiy_flot
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_dogovor_UKR
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = RUS_federal_contract
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_region
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = RUS_new_gubernator
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_federal_contract
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = RUS_Nemtsov
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_new_gubernator
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = RUS_make_army
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_MO
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = RUS_vivod_iz_germany
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_make_army
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = RUS_nuke_dogovor
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_vivod_iz_germany
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = RUS_constitucion_crisis
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 25
+		y = 1
+
+	}
+	focus = {
+		id = RUS_chernomirdyn
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_constitucion_crisis
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = RUS_8siezd
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_chernomirdyn
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = RUS_9siezd
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_8siezd
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = RUS_dadanetda
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_9siezd
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = RUS_nachalo_blokady
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_dadanetda
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = RUS_Otkluchenie_sveta
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_nachalo_blokady
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = RUS_otstavka_ruckova
+		icon = GFX_goal_pok_beliy_dom
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_Otkluchenie_sveta
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = RUS_zapret
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_otstavka_ruckova
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = RUS_contol
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_zapret
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = RUS_new_constiticia
+		icon = GFX_constitution
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_contol
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = RUS_poradok
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = RUS_federal_contract
+		}
+		prerequisite = {
+			focus = RUS_new_constiticia
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = RUS_CIN_opposition
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 30
+		y = 1
+
+	}
+	focus = {
+		id = RUS_first_chechen_war
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_CIN_opposition
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = RUS_shturm_Groznogo
+		icon = GFX_goal_unknown
+		cost = 4,00
+		prerequisite = {
+			focus = RUS_first_chechen_war
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = RUS_terorizm
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = RUS_shturm_Groznogo
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = RUS_kill_dudaev
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = RUS_terorizm
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = RUS_start_peace
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_kill_dudaev
+		}
+		x = 30
+		y = 6
+
+	}
+	focus = {
+		id = RUS_khasavurt
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_start_peace
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = RUS_make_duma
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_new_constiticia
+		}
+		x = 31
+		y = 12
+
+	}
+	focus = {
+		id = RUS_militcia
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 33
+		y = 1
+
+	}
+	focus = {
+		id = RUS_black_thurstday
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_eltsin
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = RUS_kodeks
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_make_duma
+		}
+		x = 30
+		y = 13
+
+	}
+	focus = {
+		id = RUS_spid
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_make_duma
+		}
+		x = 32
+		y = 13
+
+	}
+	focus = {
+		id = RUS_ORT
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = RUS_NTV
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = RUS_KAZ_BLR
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_SNG_prestupnost
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = RUS_valut_koridor
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_black_thurstday
+		}
+		x = 36
+		y = 2
+
+	}
+}

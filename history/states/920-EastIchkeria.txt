@@ -1,0 +1,31 @@
+state = {
+	id = 920
+	name = "STATE_920"
+	resources = {
+	}
+
+	history = {
+		owner = CIN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RUS
+		add_core_of = CIN
+		victory_points = {
+		13257 1 
+		}
+		victory_points = {
+		13259 3 
+		}
+	}
+
+	provinces = {
+	  13257 13259 3672
+	}
+	manpower = 454420
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

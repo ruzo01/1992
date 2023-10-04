@@ -1,0 +1,33 @@
+Barkhat_Razvod = {
+    Barkhat_Razvod = {
+        icon = barkhat
+        allowed = {
+            original_tag = CZE
+        }
+        cancel_trigger = {
+            SLO = {
+                exists = yes
+            }
+        }
+        available = {
+			NOT = {
+				SLO = {
+					exists = no
+				}
+			}
+        }
+        days_mission_timeout = 365
+        timeout_effect = {
+            SLO = {
+                set_state_owner = 70
+                set_state_owner = 71
+                set_state_owner = 664
+            }
+            CZE = {
+                remove_state_core = 70
+                remove_state_core = 71
+                remove_state_core = 664
+            }
+        }
+    }
+}

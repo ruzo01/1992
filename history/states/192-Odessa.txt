@@ -1,0 +1,42 @@
+
+state = {
+	id = 192
+	name = "STATE_192"
+	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
+	
+	state_category = city
+
+	history = {
+		owner = UKR
+		victory_points = {
+			11670 10 
+		}
+		victory_points = {
+			6727 1
+		}
+		victory_points = {
+			3704 5
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 6
+			11670 ={
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = UKR
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces = {
+		 9698 9714 11670 3757 6727 6743 3704 3701
+	}
+
+	local_supplies = 6.0 
+}

@@ -1,0 +1,46 @@
+﻿capital = 8
+
+oob = "LUX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+create_country_leader = {
+    name = "Jacques Santerre"
+    desc = ""
+    picture = "gfx/leaders/LUX/lux.dds" #Картинка
+    expire = "1965.1.1" #Когда умрет
+    ideology = liberalism
+    traits = {
+        #
+    }
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.10"
+	election_frequency = 12
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 80
+	communism = 10
+	neutrality = 10
+}

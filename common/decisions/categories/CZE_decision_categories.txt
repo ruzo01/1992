@@ -1,0 +1,8 @@
+Barkhat_Razvod = {
+	icon = barkhat
+	picture = GFX_decision_cat_generic_ALS_vliania
+	priority = 999
+	allowed = {
+		original_tag = CZE
+	}
+}

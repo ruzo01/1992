@@ -1,0 +1,90 @@
+characters={
+    RUS_idea_chubais={
+        name=RUS_idea_chubais
+        portraits={
+            civilian={
+                small="GFX\interface\ideas\idea_chubais.dds"
+            }
+        }
+        advisor={
+            slot = political_advisor
+            idea_token = RUS_idea_chubais
+            cost = 75.000
+            allowed = {
+                original_tag = RUS
+            }
+            available = {
+                not = {
+                    has_government = fascism
+					has_government = neutrality
+					has_government = communism
+                }
+            }
+            traits = {
+                captain_of_industry 
+            }
+            ai_will_do = {
+                factor = 2.000
+            }
+        }
+    }
+	RUS_idea_gaidar={
+        name=RUS_idea_gaidar
+        portraits={
+            civilian={
+                small="GFX\interface\ideas\idea_gaidar.dds"
+            }
+        }
+        advisor={
+            slot = political_advisor
+            idea_token = RUS_idea_gaidar
+            cost = 75.000
+            allowed = {
+                original_tag = RUS
+            }
+            available = {
+                not = {
+                    has_government = fascism
+					has_government = neutrality
+					has_government = communism
+                }
+            }
+            traits = {
+                captain_of_industry 
+            }
+            ai_will_do = {
+                factor = 2.000
+            }
+        }
+    }
+
+}
+	RUS_idea_rudskoy={
+        name=RUS_idea_rudskoy
+        portraits={
+            civilian={
+                small="GFX\interface\ideas\idea_rudskoy.dds"
+            }
+        }
+        advisor={
+            slot = political_advisor
+            idea_token = RUS_idea_rudskoy
+            cost = 10.000
+            allowed = {
+                original_tag = RUS
+            }
+            available = {
+                not = {
+                    has_government = fascism
+					has_government = neutrality
+                }
+            }
+            traits = {
+                vice_prisedent
+            }
+            ai_will_do = {
+                factor = 2.000
+            }
+        }
+    }
+}

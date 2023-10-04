@@ -1,0 +1,25 @@
+
+state={
+	id=265
+	name="STATE_265"
+	manpower = 9067808
+	
+	state_category = megalopolis
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 5 #was: 5
+		}
+		add_core_of = RUS
+		victory_points = {
+			6380 50
+		}
+	}
+
+	provinces={
+		6380 
+	}
+
+	local_supplies=0.0 
+}

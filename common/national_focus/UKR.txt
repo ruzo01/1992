@@ -1,0 +1,479 @@
+focus_tree = {
+	id = UKR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+	default = no
+	focus = {
+		id = UKR_Kravchuck
+		icon = GFX_goal_unknown
+		cost = 1,00
+		x = 12
+		y = 0
+
+	}
+	focus = {
+		id = UKR_mid
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_Kravchuck
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = UKR_zapad
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_mid
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = UKR_usa
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_zapad
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = UKR_mvf
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_zapad
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = UKR_europe
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_usa
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = UKR_sng
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_mid
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = UKR_russia
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_sng
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = UKR_nuke
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_russia
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = UKR_kredit
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_mvf
+			focus = UKR_europe
+			focus = UKR_nuke
+		}
+		prerequisite = {
+			focus = UKR_mvf
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = UKR_nuke_ukraine
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_nuke
+		}
+		mutually_exclusive = {
+			focus = UKR_give_russia
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = UKR_give_russia
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_nuke
+		}
+		mutually_exclusive = {
+			focus = UKR_nuke_ukraine
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = UKR_flot
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_russia
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = UKR_port
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_flot
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = UKR_kaukas
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_sng
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = UKR_s_asia
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_kaukas
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = UKR_economic
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_Kravchuck
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = UKR_liberal_price
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_economic
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = UKR_karbovanec
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_economic
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = UKR_privatizacia
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_liberal_price
+			focus = UKR_karbovanec
+		}
+		prerequisite = {
+			focus = UKR_karbovanec
+		}
+		prerequisite = {
+			focus = UKR_liberal_price
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = UKR_army
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = UKR_Kravchuck
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = UKR_zsu
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_army
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = UKR_sbu
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_zsu
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = UKR_flot_rus
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_army
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = UKR_kiev
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_Kravchuck
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = UKR_post_soviet
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_Kravchuck
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = UKR_flag
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_post_soviet
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = UKR_gimn
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_post_soviet
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = UKR_cerkov
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_gimn
+			focus = UKR_flag
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = UKR_khrams
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_cerkov
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = UKR_mova
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_gimn
+			focus = UKR_flag
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = UKR_TV
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_mova
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = UKR_ussr_bad
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_TV
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = UKR_chernobyl
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_post_soviet
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = UKR_chernobyl_reaktor
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = UKR_chernobyl
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = UKR_likvidator
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_chernobyl_reaktor
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = UKR_rus_chernobyl
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_likvidator
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = UKR_gaz
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = UKR_russia
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = UKR_police
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_Kravchuck
+		}
+		x = 35
+		y = 1
+
+	}
+	focus = {
+		id = UKR_police2
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_police
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = UKR_banditizm
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = UKR_police2
+		}
+		x = 35
+		y = 3
+
+	}
+}

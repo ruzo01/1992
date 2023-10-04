@@ -1,0 +1,286 @@
+capital = 265 ##Наша столица
+
+oob = "RUS_1992" ##GEG - Тег, заменить
+
+set_research_slots = 3 #Количество ячеек исследования
+
+# Технологии, какие будут открыты при старте
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+recruit_character = RUS_idea_chubais
+
+set_politics = {
+	ruling_party = democratic ##Рулевая партия
+	last_election = "1936.1.1" ##Последние выборы (если есть)
+	election_frequency = 48 ##Через сколько проводят выборы
+	elections_allowed = no ##Есть ли выборы
+}
+
+set_popularities = {
+	democratic = 48  ##Демократия
+	neutrality = 11 ##Нейтралитет
+	communism = 40 ##Коммунизм
+	fascism = 1 ##Фашизм
+}
+
+create_country_leader = {
+    name = "Eduard Limonov"
+    desc = ""
+    picture = "gfx/leaders/RUS/EduardLimonov.dds"
+    expire = "1965.1.1"
+    ideology = nazism
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Boris Eltsin"
+    desc = ""
+    picture = "gfx/leaders/RUS/BorisEltsin.dds"
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+        #
+    }
+}
+
+add_ideas = {
+    idea_RUS_banditizm
+	idea_RUS_money
+	idea_RUS_protiv_war
+	idea_RUS_democraty
+	idea_RUS_army_corupcia
+	idea_RUS_cerkov
+	idea_RUS_rudskoy
+}
+
+create_country_leader = {
+    name = "Vladimir Zhirinovskiy"
+    desc = ""
+    picture = "gfx/leaders/RUS/VladimirZhirinovskiy.dds"
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {
+        #
+    }
+}
+
+create_field_marshal = {
+    name = "Павел Грачёв"
+    picture = "Grachev.dds"
+    traits = {}
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 5
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Лев Рохлин"
+    picture = "Rokhlin.dds"
+    traits = {}
+    skill = 1
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+    name = "Александр Лебедь"
+    picture = "GeneralLebed.dds"
+    traits = {}
+    skill = 3
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_field_marshal = {
+    name = "Игорь Сергеев"
+    picture = "Sergeev.dds"
+    traits = {}
+    skill = 3
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Иван Бабичев"
+    picture = "Babichev.dds"
+    traits = {}
+    skill = 1
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Владимир Болдырев"
+    picture = "Boldirev.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Анатолий Куликов"
+    picture = "Kulikov.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Анатолий Квашин"
+    picture = "Kvashnin.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Константин Пуликовский"
+    picture = "Pulikovskiy.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Анатолий Романов"
+    picture = "Romanov.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Владимир Шаманов"
+    picture = "Shamanov.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Анатолий Шкирко"
+    picture = "Shkirko.dds"
+    traits = {}
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Вячеслав Тихомиров"
+    picture = "Tihomirov.dds"
+    traits = {}
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Геннадий Трошев"
+    picture = "Troshev.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Владимир Яковлев"
+    picture = "Vladimir_Yakovlev.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Владимир Яковлев"
+    picture = "Vladimir_Yakovlev.dds"
+    traits = {}
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Юрий Балуевский"
+    picture = "Yuri_Baluyevskiy.dds"
+    traits = {}
+    skill = 1
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_country_leader = {
+    name = "Genadiy Zuganov"
+    desc = ""
+    picture = "gfx/leaders/RUS/Zuganov.dds"
+    expire = "1965.1.1"
+    ideology = leninism
+    traits = {
+        #
+    }
+}
+}

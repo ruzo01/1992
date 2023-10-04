@@ -1,0 +1,500 @@
+focus_tree = {
+	id = CRI
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRI
+		}
+	}
+	default = no
+	focus = {
+		id = CRI_free
+		icon = GFX_goal_unknown
+		cost = 1,00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = CRI_tatar
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_free
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = CRI_chistki
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_tatar
+		}
+		mutually_exclusive = {
+			focus = CRI_unia
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = CRI_deportation
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_chistki
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = CRI_war_SEV
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_deportation
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = CRI_turkey1
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_tatar
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = CRI_EU
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_turkey1
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = CRI_zapad
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_EU
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = CRI_turkey2
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_turkey1
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = CRI_EU_turist
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_EU
+			focus = CRI_turkey2
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = CRI_TAT
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_turkey2
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = CRI_turkey3
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_TAT
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = CRI_unia
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_tatar
+		}
+		mutually_exclusive = {
+			focus = CRI_chistki
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = CRI_open_RUS_UKR
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_unia
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = CRI_annex_SEV
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_open_RUS_UKR
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = CRI_port_NATO
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_war_SEV
+			focus = CRI_annex_SEV
+		}
+		prerequisite = {
+			focus = CRI_zapad
+		}
+		mutually_exclusive = {
+			focus = CRI_port_RUS
+			focus = CRI_port_TUR
+			focus = CRI_port_RUS
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = CRI_port_RUS
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_annex_SEV
+			focus = CRI_war_SEV
+		}
+		mutually_exclusive = {
+			focus = CRI_port_NATO
+			focus = CRI_port_TUR
+			focus = CRI_port_NATO
+			focus = CRI_port_TUR
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = CRI_port_TUR
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_turkey3
+		}
+		mutually_exclusive = {
+			focus = CRI_port_RUS
+			focus = CRI_port_NATO
+			focus = CRI_port_RUS
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = CRI_TUR_autonomy
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_port_TUR
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = CRI_KSSR
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_annex_SEV
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = CRI_kolhoz
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_KSSR
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = CRI_unia_tatar
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_tatar
+		}
+		mutually_exclusive = {
+			focus = CRI_deport_tatar
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = CRI_tatar
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_free
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = CRI_kurort_RUS_UKR
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_KSSR
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = CRI_deport_tatar
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_tatar
+		}
+		mutually_exclusive = {
+			focus = CRI_unia_tatar
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = CRI_communism
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_free
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = CRI_annex_SEV
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_open_RUS_UKR
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = CRI_support_PMR
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_annex_SEV
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = CRI_PRC
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_annex_SEV
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = CRI_PRC_flot
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_PRC
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = CRI_turist
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_PRC_flot
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = CRI_PRC_invest
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_PRC
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = CRI_war_base_PRC
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_PRC_invest
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = CRI_port_RUS
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_annex_SEV
+			focus = CRI_war_SEV
+		}
+		mutually_exclusive = {
+			focus = CRI_port_NATO
+			focus = CRI_port_TUR
+			focus = CRI_port_NATO
+			focus = CRI_port_TUR
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = CRI_RUS_unia
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_port_RUS
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = CRI_respublika
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_free
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = CRI_SEV_souz
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_respublika
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = CRI_rus
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_port_RUS
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = CRI_join_NATO
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_port_NATO
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = CRI_RUS_autonomy
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_rus
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = CRI_annex_SEV1
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = CRI_respublika
+		}
+		x = 22
+		y = 2
+
+	}
+}

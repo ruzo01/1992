@@ -1,0 +1,11 @@
+focus_tree = {
+	id = CIN
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CIN
+		}
+	}
+	default = no
+}

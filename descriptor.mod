@@ -1,0 +1,15 @@
+version="0.0.6"
+tags={
+	"Map"
+	"Military"
+	"National Focuses"
+	"Sound"
+	"Technologies"
+	"Translation"
+	"Gameplay"
+	"Historical"
+	"Ideologies"
+	"Events"
+}
+name="1992"
+supported_version="1.12.14"
