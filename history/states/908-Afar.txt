@@ -15,10 +15,6 @@ state = {
             arms_factory = 1
         }
         
-        1936.6.1 = {
-            owner = ETH
-        }
-
         add_core_of = ETH
         add_core_of = AFA
     }
